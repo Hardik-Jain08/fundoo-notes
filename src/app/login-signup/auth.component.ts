@@ -28,19 +28,18 @@ export class AuthComponent implements OnInit {
 
   onSubmitSignUp(form: FormGroup) {
     console.log(form.value);
-    console.log('Valid?', form.valid); // true or false
-    console.log('Name', form.value.name);
-    console.log('Email', form.value.email);
-    console.log('Password', form.value.password);
-    this.userAuth.signUp({
+    let data = {
       firstName: form.value.name.split(' ')[0],
-      lastName: form.value.name.split(' ')[1],
+      lastName: form.value.name.split(' ')[1] || "string",
       service: 'string',
       email: form.value.email,
       password: form.value.password
-    }).subscribe({
+    };
+    console.log(data);
+    this.userAuth.signUp(data).subscribe({
       next: (res: any) => {
         console.log(res);
+        window.location.href = '/';
       },
       error: (err: Error) => {
         console.log(err);

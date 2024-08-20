@@ -9,7 +9,7 @@ export class UserService {
   constructor(private httpService : HttpService) { }
 
   signUp(data: any){
-    return this.httpService.postApiCall('user/signup', data);
+    return this.httpService.postApiCall('user/userSignUp', data);
   }
   login(data: any){
     return this.httpService.postApiCall('user/login', data);

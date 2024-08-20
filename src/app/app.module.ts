@@ -14,7 +14,7 @@ import { DrawerComponent } from './components/drawer/drawer.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { CardsComponent } from './components/cards/cards.component';
 import {MatIconModule} from '@angular/material/icon';
-import { AuthComponent } from './auth/auth.component'
+import { AuthComponent } from './login-signup/auth.component'
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
