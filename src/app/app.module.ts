@@ -1,27 +1,35 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {ReactiveFormsModule} from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { RegisterComponent } from './register/register.component';
-import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
-import { NavbarComponent } from './navbar/navbar.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { HomeComponent } from './home/home.component';
+import { DrawerComponent } from './components/drawer/drawer.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { CardsComponent } from './components/cards/cards.component';
+import {MatIconModule} from '@angular/material/icon';
+import { AuthComponent } from './auth/auth.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    RegisterComponent,
-    LoginComponent,
-    NavbarComponent
+    NavbarComponent,
+    HomeComponent,
+    DrawerComponent,
+    DashboardComponent,
+    CardsComponent,
+    AuthComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule, FormsModule, BrowserAnimationsModule,
-    MatCardModule, MatButtonModule
+    MatCardModule, MatButtonModule, MatIconModule,ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

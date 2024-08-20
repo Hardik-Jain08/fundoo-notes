@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+}
+
+.search-container {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    gap: 1rem;
+    background-color: #f1f3f4;
+    padding: 10px 16px;
+    border-radius: 5px;
+    align-items: center;
+    input {
+        border: none;
+        outline: none;
+        background-color: #f1f3f4;
+    }
+}

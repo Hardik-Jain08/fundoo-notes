@@ -1,0 +1,21 @@
+.drawer {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+    height: 100%;
+}
+.tab {
+    background-color: white;
+    padding: 8px 24px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.tab:hover {
+    background-color: #feefc3;
+}

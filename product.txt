@@ -1,0 +1,74 @@
+CREATE A NOTE
+- title is optional
+- can start a new note with (checklist, drawing, image) > static
+
+-- Reminder > static
+- some default time (later today, tomorrow, next week, pick a date, pick a place)
+-  delete a reminder
+
+-- collaboration > static
+- add using email
+- remove
+- collaborator can view,edit,delete
+
+-- appearance 
+- set a color as background
+- set a image as background
+
+-- edit a note 
+- add an image, edit the image, delete the image, scribble on image.
+
+--archive 
+- searchable
+- filerable
+
+-- select notes
+- do operations in bulk
+
+-- pin note
+
+-- delete note
+
+-- label
+- make new labels
+- edit labels
+- one note can have more than one labels
+
+-- add drawing > static
+
+-- either all checklist or all notes
+- rearrange checklist
+- indent checklist
+- also shows checked items in below list
+
+-- grab image text > static
+
+-- copy to google docs > static
+
+-- undo and redo
+
+-- collapsible drawer > sidenav
+
+-- in label tabs it is categorized into three things pinned, others, archive
+
+-- edit labels
+
+-- trash
+- automatically delete notes within 7 days > static
+- empty notes button
+
+--search
+- searches in text of notes, images, labels, and emails/collaborators.
+- search by filter (reminders, lists, images, links, lables, things, people, colors)
+
+-- refresh
+
+--views
+- gridview(default, rearrange, draggable)
+- listview(draggable)
+
+-- personalization
+- checklist customization
+- link preview
+- dark theme
+- reminder defaults
