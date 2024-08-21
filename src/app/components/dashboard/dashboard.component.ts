@@ -7,9 +7,7 @@ import { NotesService } from 'src/app/services/notes-service/notes.service';
   styleUrls: ['./dashboard.component.scss']
 })
 export class DashboardComponent implements OnInit {
-
   constructor(private notesService: NotesService) { }
-
   
   notes = []
   ngOnInit(): void {

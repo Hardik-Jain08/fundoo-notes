@@ -16,22 +16,4 @@
     padding: 20px;
 }
 
-.create-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    box-shadow: 1px 2px 8px 1px #888888;
-    width: 50%;
-    border-radius: 5px;
-    padding: 1% 20px;
-    input {
-        border: none;
-        outline: none;
-        font-size: 1.2em;
-        width: 100%;
-    }
-    mat-icon, img {
-        cursor: pointer;
-    }
-}
+

@@ -11,4 +11,8 @@ export class NotesService {
   getAllNotes(endpoint: string){
     return this.httpService.getApiCall(`notes/${endpoint}?access_token=${this.access_token}`);
   }
+  addNewNote(endpoint: string, data: any){
+    return this.httpService.postApiCall(`notes/${endpoint}?access_token=${this.access_token}`, data);
+  }
+  
 }

@@ -16,6 +16,7 @@ import { CardsComponent } from './components/cards/cards.component';
 import {MatIconModule} from '@angular/material/icon';
 import { AuthComponent } from './login-signup/auth.component'
 import { HttpClientModule } from '@angular/common/http';
+import { CreateNoteComponent } from './components/create-note/create-note.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { HttpClientModule } from '@angular/common/http';
     DashboardComponent,
     CardsComponent,
     AuthComponent,
+    CreateNoteComponent,
   ],
   imports: [
     BrowserModule,

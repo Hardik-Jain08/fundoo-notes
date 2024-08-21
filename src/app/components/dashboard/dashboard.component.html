@@ -1,12 +1,5 @@
 <div ngClass="dashboard-container">
-    <div ngClass="create-container">
-        <input type="text" placeholder="Take a note...">
-        <div style="display: flex; gap: 5px;">
-            <img src="../../../assets/images/checkbox.svg" alt="" width="24px">
-            <mat-icon>brush</mat-icon>
-            <mat-icon>photo</mat-icon>
-        </div>
-    </div>
+    <app-create-note></app-create-note>
     <div ngClass="notes-container">
         <app-cards *ngFor="let noteDetails of notes" [noteDetails]="noteDetails"></app-cards>
     </div>
