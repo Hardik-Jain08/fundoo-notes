@@ -14,26 +14,21 @@
       <span class="material-symbols-outlined"> archive </span>
       <span>
         <button
-        class="material-symbols-outlined"
-        mat-icon-button
-        [matMenuTriggerFor]="menu"
+          class="material-symbols-outlined"
+          mat-icon-button
+          [matMenuTriggerFor]="menu"
         >
-        more_vert
-      </button>
-    </span>
+          more_vert
+        </button>
+      </span>
       <mat-menu #menu="matMenu">
-        <button mat-menu-item>
-          <mat-icon>dialpad</mat-icon>
-          <span>Redial</span>
-        </button>
-        <button mat-menu-item disabled>
-          <mat-icon>voicemail</mat-icon>
-          <span>Check voice mail</span>
-        </button>
-        <button mat-menu-item>
-          <mat-icon>notifications_off</mat-icon>
-          <span>Disable alerts</span>
-        </button>
+        <button mat-menu-item> Delete note</button>
+        <button mat-menu-item>Change labels</button>
+        <button mat-menu-item>Add drawing</button>
+        <button mat-menu-item>Make a copy</button>
+        <button mat-menu-item>Show checkboxes</button>
+        <button mat-menu-item>Copy to Google Docs</button>
+        <button mat-menu-item>Version history</button>
       </mat-menu>
     </div>
   </mat-card-footer>

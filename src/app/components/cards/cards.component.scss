@@ -6,11 +6,12 @@
   display: none;;
 }
 .example-card:hover .notecard-icons>span {
-  display: block;
+  display: flex; justify-content: center; align-items: center;
 }
 .notecard-icons{
+    height: 46.54px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10% 5% 2% 5%;
+    padding: 0 5% 2% 5%;
 }

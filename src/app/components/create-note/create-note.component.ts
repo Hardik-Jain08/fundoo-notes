@@ -8,9 +8,8 @@ import { NotesService } from 'src/app/services/notes-service/notes.service';
 })
 export class CreateNoteComponent implements OnInit {
   constructor(private notesService: NotesService) { }
-  openCreateContainer = false;
-  displayCreateContainer() {
-    this.openCreateContainer = !this.openCreateContainer;
+  showCreateNote() {
+
   }
   noteDetails : {
     title: string;

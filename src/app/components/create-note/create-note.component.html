@@ -1,5 +1,5 @@
 <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-    <div ngClass="create-container">
+    <div ngClass="create-container" (click)="showCreateNote()">
         <input type="text" placeholder="Take a note...">
         <span style="display: flex; width:120px;justify-content: space-between;">
             <span class="material-symbols-outlined">
@@ -13,7 +13,7 @@
             </span>
         </span>
     </div>
-    <div class="writeNote" *ngIf="true" >
+    <div class="writeNote" >
         <div style="display: flex;justify-content: space-between;">
             <input placeholder="Title" class="input">
         <span class="material-symbols-outlined">
