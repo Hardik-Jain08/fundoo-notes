@@ -12,7 +12,29 @@
       <span class="material-symbols-outlined"> palette </span>
       <span class="material-symbols-outlined"> image </span>
       <span class="material-symbols-outlined"> archive </span>
-      <span class="material-symbols-outlined"> more_vert </span>
+      <span>
+        <button
+        class="material-symbols-outlined"
+        mat-icon-button
+        [matMenuTriggerFor]="menu"
+        >
+        more_vert
+      </button>
+    </span>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+          <mat-icon>dialpad</mat-icon>
+          <span>Redial</span>
+        </button>
+        <button mat-menu-item disabled>
+          <mat-icon>voicemail</mat-icon>
+          <span>Check voice mail</span>
+        </button>
+        <button mat-menu-item>
+          <mat-icon>notifications_off</mat-icon>
+          <span>Disable alerts</span>
+        </button>
+      </mat-menu>
     </div>
   </mat-card-footer>
 </mat-card>

@@ -17,6 +17,7 @@ import {MatIconModule} from '@angular/material/icon';
 import { AuthComponent } from './login-signup/auth.component'
 import { HttpClientModule } from '@angular/common/http';
 import { CreateNoteComponent } from './components/create-note/create-note.component';
+import {MatMenuModule} from '@angular/material/menu';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,7 @@ import { CreateNoteComponent } from './components/create-note/create-note.compon
   imports: [
     BrowserModule,
     AppRoutingModule, FormsModule, BrowserAnimationsModule,
-    MatCardModule, MatButtonModule, MatIconModule,ReactiveFormsModule,HttpClientModule
+    MatCardModule, MatButtonModule, MatIconModule,ReactiveFormsModule,HttpClientModule, MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
